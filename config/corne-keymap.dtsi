@@ -31,7 +31,7 @@
                                        &kp LGUI  &mo 1  &tp LALT RET      &kp SPACE        &mo 2  &tp HYPER RET
         >;
       };
-              
+
       lower_layer {
         bindings = <
           &kp BSLH   &kp EXCL  &kp AT  &kp HASH  &kp DLLR &kp PRCNT         &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans

@@ -13,7 +13,7 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
       }; 
-      
+
       // Hold for right shift, 
       // Tap twice for saving in vim: Esc :w Enter
       tdvsave: tap_dance_vim_save {
@@ -30,7 +30,7 @@
            compatible = "zmk,behavior-tap-dance";
            label = "TAP_DANCE_VIMTEX_COMPILE";
            #binding-cells = <0>;
-           tapping-term-ms = <200>;
+           tapping-term-ms = <150>;
            bindings = <&kp SQT>, <&vtcompile>;
       };
         
